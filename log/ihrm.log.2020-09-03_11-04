@@ -1,0 +1,406 @@
+2020-09-03 11:02:07,099 INFO [root] [__init__.py(<module>:7)] - Test日志会不会打印！！！
+2020-09-03 11:02:08,505 INFO [root] [test03_cis_plan_params.py(test02_add_cost:52)] - 添加抄表计划的结果为：true
+2020-09-03 11:02:08,505 INFO [root] [test03_cis_plan_params.py(test02_add_cost:53)] - 添加抄表计划的响应码：200
+2020-09-03 11:02:09,162 INFO [root] [test03_cis_plan_params.py(test02_query_cost:65)] - 查询的结果为：{'recordsFiltered': 9, 'data': [{'mrPlanId': '202008041351398470105233130103', 'frequencyUnit': '1', 'mrPlanNo': '0001', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '抄表01', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1596520301000, 'nextExecDate': '2020-08-05', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008041444534800105551928244', 'frequencyUnit': '1', 'mrPlanNo': '0003', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '抄表执行监控', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1596523494000, 'nextExecDate': '2020-08-04', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008241505204900105498892317', 'frequencyUnit': '1', 'mrPlanNo': '0005', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '普表抄表冒烟', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598252721000, 'nextExecDate': '2020-08-25', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008250916105400105650242344', 'frequencyUnit': '2', 'mrPlanNo': '0006', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '3', 'mrPlanTypeDes': '普表', 'mrPlanName': '测试一下', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598318171000, 'nextExecDate': '2020-08-25', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008250941572220105386959586', 'frequencyUnit': '1', 'mrPlanNo': '4678', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '抄表', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598319718000, 'nextExecDate': '2020-08-25', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008251004392350105399463739', 'frequencyUnit': '1', 'mrPlanNo': '0008', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '抄，，，表', 'stateDes': '执行中', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598321080000, 'nextExecDate': '2020-08-27', 'state': '2', 'staffId': '44210'}, {'mrPlanId': '202008251056235220105727854918', 'frequencyUnit': '1', 'mrPlanNo': '0009', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '2', 'mrPlanTypeDes': '普表', 'mrPlanName': '直接补抄', 'stateDes': '执行中', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598324184000, 'nextExecDate': '2020-08-27', 'state': '2', 'staffId': '44210'}, {'mrPlanId': '202009031058491700105117685808', 'frequencyUnit': '1', 'mrPlanNo': '11111', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '11111', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1599101930000, 'nextExecDate': '2020-09-03', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202009031101517080105099667289', 'frequencyUnit': '1', 'mrPlanNo': '88888', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '接口测试', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1599102112000, 'nextExecDate': '2020-09-03', 'state': '1', 'staffId': '44210'}], 'draw': 0, 'recordsTotal': 9}
+2020-09-03 11:02:09,169 INFO [root] [test03_cis_plan_params.py(test02_query_cost:69)] - 保存到全局变量抄表计划的ID为：202009031101517080105099667289
+2020-09-03 11:02:09,948 INFO [root] [test03_cis_plan_params.py(test03_del_cost:78)] - 删除的结果为：true
+2020-09-03 11:02:28,907 INFO [root] [__init__.py(<module>:7)] - Test日志会不会打印！！！
+2020-09-03 11:02:30,215 INFO [root] [test03_cis_plan_params.py(test02_add_cost:52)] - 添加抄表计划的结果为：true
+2020-09-03 11:02:30,215 INFO [root] [test03_cis_plan_params.py(test02_add_cost:53)] - 添加抄表计划的响应码：200
+2020-09-03 11:02:30,863 INFO [root] [test03_cis_plan_params.py(test02_query_cost:65)] - 查询的结果为：{'recordsFiltered': 9, 'data': [{'mrPlanId': '202008041351398470105233130103', 'frequencyUnit': '1', 'mrPlanNo': '0001', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '抄表01', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1596520301000, 'nextExecDate': '2020-08-05', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008041444534800105551928244', 'frequencyUnit': '1', 'mrPlanNo': '0003', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '抄表执行监控', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1596523494000, 'nextExecDate': '2020-08-04', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008241505204900105498892317', 'frequencyUnit': '1', 'mrPlanNo': '0005', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '普表抄表冒烟', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598252721000, 'nextExecDate': '2020-08-25', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008250916105400105650242344', 'frequencyUnit': '2', 'mrPlanNo': '0006', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '3', 'mrPlanTypeDes': '普表', 'mrPlanName': '测试一下', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598318171000, 'nextExecDate': '2020-08-25', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008250941572220105386959586', 'frequencyUnit': '1', 'mrPlanNo': '4678', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '抄表', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598319718000, 'nextExecDate': '2020-08-25', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008251004392350105399463739', 'frequencyUnit': '1', 'mrPlanNo': '0008', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '抄，，，表', 'stateDes': '执行中', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598321080000, 'nextExecDate': '2020-08-27', 'state': '2', 'staffId': '44210'}, {'mrPlanId': '202008251056235220105727854918', 'frequencyUnit': '1', 'mrPlanNo': '0009', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '2', 'mrPlanTypeDes': '普表', 'mrPlanName': '直接补抄', 'stateDes': '执行中', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598324184000, 'nextExecDate': '2020-08-27', 'state': '2', 'staffId': '44210'}, {'mrPlanId': '202009031058491700105117685808', 'frequencyUnit': '1', 'mrPlanNo': '11111', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '11111', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1599101930000, 'nextExecDate': '2020-09-03', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202009031102134180105840313482', 'frequencyUnit': '1', 'mrPlanNo': '88888', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '接口测试', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1599102134000, 'nextExecDate': '2020-09-03', 'state': '1', 'staffId': '44210'}], 'draw': 0, 'recordsTotal': 9}
+2020-09-03 11:02:30,863 INFO [root] [test03_cis_plan_params.py(test02_query_cost:69)] - 保存到全局变量抄表计划的ID为：202009031102134180105840313482
+2020-09-03 11:02:31,643 INFO [root] [test03_cis_plan_params.py(test03_del_cost:78)] - 删除的结果为：true
+2020-09-03 11:02:51,320 INFO [root] [__init__.py(<module>:7)] - Test日志会不会打印！！！
+2020-09-03 11:02:52,752 INFO [root] [test03_cis_plan_params.py(test02_add_cost:52)] - 添加抄表计划的结果为：true
+2020-09-03 11:02:52,752 INFO [root] [test03_cis_plan_params.py(test02_add_cost:53)] - 添加抄表计划的响应码：200
+2020-09-03 11:02:53,408 INFO [root] [test03_cis_plan_params.py(test02_query_cost:65)] - 查询的结果为：{'recordsFiltered': 9, 'data': [{'mrPlanId': '202008041351398470105233130103', 'frequencyUnit': '1', 'mrPlanNo': '0001', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '抄表01', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1596520301000, 'nextExecDate': '2020-08-05', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008041444534800105551928244', 'frequencyUnit': '1', 'mrPlanNo': '0003', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '抄表执行监控', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1596523494000, 'nextExecDate': '2020-08-04', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008241505204900105498892317', 'frequencyUnit': '1', 'mrPlanNo': '0005', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '普表抄表冒烟', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598252721000, 'nextExecDate': '2020-08-25', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008250916105400105650242344', 'frequencyUnit': '2', 'mrPlanNo': '0006', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '3', 'mrPlanTypeDes': '普表', 'mrPlanName': '测试一下', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598318171000, 'nextExecDate': '2020-08-25', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008250941572220105386959586', 'frequencyUnit': '1', 'mrPlanNo': '4678', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '抄表', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598319718000, 'nextExecDate': '2020-08-25', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008251004392350105399463739', 'frequencyUnit': '1', 'mrPlanNo': '0008', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '抄，，，表', 'stateDes': '执行中', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598321080000, 'nextExecDate': '2020-08-27', 'state': '2', 'staffId': '44210'}, {'mrPlanId': '202008251056235220105727854918', 'frequencyUnit': '1', 'mrPlanNo': '0009', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '2', 'mrPlanTypeDes': '普表', 'mrPlanName': '直接补抄', 'stateDes': '执行中', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598324184000, 'nextExecDate': '2020-08-27', 'state': '2', 'staffId': '44210'}, {'mrPlanId': '202009031058491700105117685808', 'frequencyUnit': '1', 'mrPlanNo': '11111', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '11111', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1599101930000, 'nextExecDate': '2020-09-03', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202009031102359560105343105868', 'frequencyUnit': '1', 'mrPlanNo': '88888', 'deptId': '分公司3', 'perforIndex': None, 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '接口测试', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1599102157000, 'nextExecDate': '2020-09-03', 'state': '1', 'staffId': '44210'}], 'draw': 0, 'recordsTotal': 9}
+2020-09-03 11:02:53,408 INFO [root] [test03_cis_plan_params.py(test02_query_cost:69)] - 保存到全局变量抄表计划的ID为：202009031102359560105343105868
+2020-09-03 11:02:54,188 INFO [root] [test03_cis_plan_params.py(test03_del_cost:78)] - 删除的结果为：true
+2020-09-03 11:03:49,202 INFO [root] [__init__.py(<module>:7)] - Test日志会不会打印！！！
+2020-09-03 11:03:49,930 INFO [root] [test03_cis_plan_params.py(test01_add_cost:52)] - 添加抄表计划的结果为：<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" type="text/css" href="css/flex-layout.css">
+<title>å®¢æäº</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+
+    }
+    ul,li,img,h1{margin: 0;padding: 0;}
+    html,
+    body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 14px;
+        background: #2255dd;
+        /*overflow: hidden;*/
+        font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Helvetica Neue',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'
+    }
+    .bgc02{background: #2255dd}
+
+    .bg{width: 100%;height: 100%; background:  url(images/bg_01.png) #2c60ea top right no-repeat;background-size: 100%;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg_image01.png',sizingMethod='scale')}
+    .logo{width:100%;height: 64px;padding: 64px 0 0 64px}
+    .logo img{width: 64px;height: 64px;}
+    .logo h1{font-size: 2rem;padding:12px 0 0 16px;color: #333333}
+    .title{ padding: 80px 0 0 64px}
+    .title h2{font-size: 3rem;font-weight:200;color: #333333;}
+    .tcenter{text-align: center;}
+    .link-record {
+        position:absolute;
+        height: 24px;
+        line-height: 24px;
+        bottom: 0;
+        text-align:center;
+        background: #2c60ea;
+    }
+    .link-record a{
+        color:rgba(255,255,255,0.56);
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        font-size: 0.85rem;
+    }
+    .title_loginform{font-size: 1.5rem; font-weight: none !important;color: white}
+    .wrap_input{margin: 24px auto 16px auto }
+    .wrap_input p{margin-bottom: 32px }
+    .wrap_input p input{width:100%;height: 40px;line-height: 40px;border: none;background: #2c60ea;font-size: 1.2rem;color: white;border-radius: 4px;padding: 0 16px 0 16px}
+    .wrap_input p select{width:100%;height: 40px;line-height: 40px;border: none;background: #2c60ea;font-size: 1.2rem;color: white;border-radius: 4px;padding: 0 16px 0 16px}
+    .wrap_input p input::-webkit-input-placeholder {
+        color: rgba(255,255,255,.56);
+        font-size: 1.2rem;
+    }
+    .wrap_input p select::-webkit-input-placeholder {
+        color: rgba(255,255,255,.56);
+        font-size: 1.2rem;
+    }
+    .wrap_input p input:-moz-placeholder {
+        color: rgba(255,255,255,.56);
+        font-size: 1.2rem;
+    }
+    .wrap_input p select:-moz-placeholder {
+        color: rgba(255,255,255,.56);
+        font-size: 1.2rem;
+    }
+    .wrap_input p input:-ms-input-placeholder {
+        color: rgba(255,255,255,.56);
+        font-size: 1.2rem;
+        margin:24px auto 0 auto;
+        width:80%
+    }
+    .wrap_input p select:-ms-input-placeholder {
+        color: rgba(255,255,255,.56);
+        font-size: 1.2rem;
+    }
+
+
+    .wrap_input p button{width: 100%;height: 48px; line-height: 48px;border: none ;background: #ffffff;color: #2255dd;font-size: 1.2rem;border-radius: 4px}
+
+    .pd64{padding: 0 56px 0  56px}
+    .mgb24{margin-bottom: 24px}
+    .mgb32{margin-bottom: 32px}
+    .h100{height: 100%}
+    .c_img{width: 40%;height: auto}
+
+
+    @media (min-width: 320px) and (max-width:1023px ){
+        h2{color: white;font-size: 2rem;margin: 8px 0 8px 0}
+        .bg_small{ background:  url(images/bg_small.png) #2255dd top right no-repeat;background-size: 100%;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg_image01.png',sizingMethod='scale')}
+    }
+    @media (max-width: 320px){
+        h2{font-size: 1.5rem;margin: 0}
+    }
+    @media (min-width: 320px) and (max-width:767px ){
+        .title_loginform{font-size: 1rem}
+        .wrap_input{width: 80%;}
+        .c_img{width: 17%;height: auto}
+
+    }
+    @media (min-width: 767px) and (max-width:1023px ){
+        h2{font-size: 3rem;}
+
+        .wrap_input{width: 50%;}
+        .c_img{width: 20%;height: auto}
+
+    }
+    @media (min-width: 1024px) and (max-width:1439px ) {
+
+        .wrap_input{width: 80%;}
+        .c_img{width: 40%;height: auto}
+        /*.pd64 {padding: 0 32px 0 32px;}*/
+    }
+    @media (min-width: 1440px) {
+
+        .wrap_input{width: 80%;}
+        .c_img{width: 40%;height: auto}
+        .title h2{font-size: 3.4rem;}
+    }
+    .hidden{
+        display:none
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="flex-column flex-sm  h100">
+    <div class="flex-item-18 flex-sm-hide">
+        <div class="bg">
+            <div class="logo">
+                <img src="images/logo_cis@2x.png" style="height: 50px;width: auto" />
+            </div>
+            <div class="title">
+                <h2>ENESYS å®¢æç®¡çç³»ç»</h2>
+            </div>
+            <div class="link-record flex-item-18">
+                <a href="#" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+    <div class="flex-row flex-item-6 bgc02 tcenter bg_small" style="flex-wrap: nowrap">
+        <div class=" flex-item-24">
+            <svg style="width: 48px;height: 48px;margin-top: 48px" viewbox="0 0 123 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="1.1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="cislogo" fill="#ffffff" fill-rule="nonzero">
+                        <path d="M17.41,52.81 L7.2475359e-13,52.81 L7.2475359e-13,39 C0.0275466553,17.4723153 17.4723153,0.0275466553 39,-2.84217094e-14 L122.9,-2.84217094e-14 L122.9,17.41 L39,17.41 C27.0830237,17.4265246 17.4265246,27.0830237 17.41,39 L17.41,52.81 Z M83.89,95.63 L7.2475359e-13,95.63 L7.2475359e-13,78.22 L83.89,78.22 C95.8147804,78.2089738 105.478974,68.5447804 105.49,56.62 L105.49,51.53 L57,51.53 L57,34.11 L122.9,34.11 L122.9,56.62 C122.877952,78.1554888 105.425489,95.6079519 83.89,95.63 Z" id="å½¢ç¶ç»å"></path>
+                    </g>
+                </g>
+            </svg>
+            <h2 class="flex-sm-show  flex-row  flex-center">CISäºæå¡ç³»ç»</h2>
+            <p class="title_loginform">ç¨æ·ç»å½</p>
+            <div class="wrap_input">
+                <form action="index.html" method="POST" id="loginForm">
+                    <input type="hidden" id="device" name="device">
+                    <p><input type="text"  id="loginAccount" name="loginAccount" placeholder="è´¦å·"></p>
+                    <p><input type="password" id="password" name="password" placeholder="å¯ç "></p>
+
+                    <p>
+                        <select class="form-control input-sm default-select2 hidden" id="deptId" name="deptId" placeholder="éæ©è¥ä¸å">
+                        </select>
+                    </p>
+                    <p><button class="btn btn-success btn-block login-btn">ç»å½</button></p>
+                </form>
+            </div>
+        </div>
+        <div class="flex-item-24 flex-bottom">
+            <p class="mgb24"><img src="images/code.png" class="c_img" class="mgb24"/> <br>
+                <img src="images/logo_goldcard.png" class="c_img" /></p>
+            <div class="link-record flex-item-24 flex-sm-show">
+                <a href="#" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="assets/plugins/jquery/jquery-1.9.1.min.js"></script>
+<script>
+var baseUrl = $("script[src]").get(0).src.replace("assets/plugins/jquery/jquery-1.9.1.min.js", "");
+
+var loginButton = $('.btn-block'),
+        loginAccount = $("#loginAccount"),
+        password = $("#password"),
+        firstEnter = 1,
+        url,
+        requestUrl = localStorage.getItem("firstUrl");
+
+    loginButton.removeAttr('disabled');
+
+    url = requestUrl ? requestUrl : baseUrl + 'portal.jsp';
+    //url = requestUrl ? requestUrl : baseUrl + "index2.html";
+
+    localStorage.setItem("firstUrl", '');
+
+    $("#loginAccount, #password").keyup(function (e) {
+        e.stopPropagation();
+        if (event.keyCode === 13) {
+            loginButton.click();
+        } else {
+            setTimeout(function () {
+                loginButton.removeClass("btn-warning btn-danger").text("ç«å³ç»å¥");
+            }, 0)
+        }
+    });
+    var tijiaozhong = 0;
+    loginButton.on("click", function (e) {
+        if(tijiaozhong == 1){
+            alertInfo("è¯·å¿éå¤ç¹å»");
+            return;
+        }
+        tijiaozhong=1;
+        e.preventDefault();
+        var t = $(this);
+        t.text("ç»å½ä¸­...");
+        var login_data = $("#loginForm").serialize();
+        if (loginAccount.val() === "") {
+            t.text('è¯·è¾å¥ç¨æ·å!').addClass("btn-warning");
+            loginAccount.focus();
+            tijiaozhong = 0;
+            return;
+        }
+        if (password.val() === "") {
+            if (firstEnter) {
+                password.focus();
+                firstEnter = 0;
+                setTimeout(function () {
+                    t.click();
+                }, 50);
+            } else {
+                t.text('è¯·è¾å¥å¯ç !').addClass("btn-warning");
+                password.focus();
+            }
+            tijiaozhong = 0;
+            return;
+        }
+        $.ajax({
+            url: "login/login",
+            type: "post",
+            data: login_data,
+            dataType: 'json',
+            success: function (data) {
+                if (data.returnCode === "0000") {
+                    sessionStorage.setItem('csrInfo', JSON.stringify(data.data));
+                    password.blur();
+                    t.text('ç»å½æå, é¡µé¢è·³è½¬ä¸­...').addClass("btn-succezss");
+                    if(data.data.mhMenu==="true"){
+                        setTimeout(function(){
+                            localStorage.setItem("isIndex",false);
+                            location.href = url;
+                        }, 100);
+                    }else if(data.data.mhMenu==="callCenter"){
+                        setTimeout(function(){
+                            localStorage.setItem("isIndex",true);
+                            location.href = '../enesys-callcenter/callCenter-index.jsp';
+                        }, 100);
+                    }else {
+                        setTimeout(function(){
+                            localStorage.setItem("isIndex",true);
+                            location.href = 'index.jsp';
+                        }, 100);
+                    }
+
+                } else if (data.returnCode === "4003") {
+                    t.text('å¯ç è¿æï¼').addClass("btn-danger");
+                    setTimeout(function(){
+                        location.href = 'loginEditPwd.html';
+                    },1500)
+                } else {
+                    tijiaozhong = 0;
+                    t.text(data.returnMessage).addClass("btn-warning");
+                }
+            },
+            error: function (jqXHR) {
+                tijiaozhong = 0;
+                t.text('ç»å½å¤±è´¥, è¯·éè¯!').addClass("btn-danger");
+                console.error(jqXHR);
+            }
+        });
+    });
+
+    var getDepts = function(){
+        var domainName  = document.location.protocol  + "//" + document.location.host  ;
+
+        var login_data = {}
+        login_data.domainName = domainName;
+        login_data.loginAccount = loginAccount.val();
+        if(login_data.loginAccount == ""){
+            return;
+        }
+        $.ajax({
+            url: "login/departmentList",
+            type: "post",
+            data: login_data,
+            dataType: 'json',
+            success: function (data) {
+                console.log(data)
+                if (data.returnCode === "0000") {
+                    $("#deptId").removeClass("hidden");
+                    deptSelectDataLoad(data.data);
+                } else if (data.returnCode === "1001") {
+                    $("#deptId").find("option").remove();
+                    $("#deptId").addClass("hidden");
+                } else {
+                    loginButton.text(data.returnMessage).addClass("btn-warning");
+                }
+            },
+            error: function (jqXHR) {
+                loginButton.text('ç»å½å¤±è´¥, è¯·éè¯!').addClass("btn-danger");
+            }
+        });
+        return
+
+    }
+
+    function getBeianInfo(){
+        var domainName  = document.location.protocol  + "//" + document.location.host  ;
+        var login_data = {}
+        login_data.domainName = domainName;
+        $.ajax({
+            url: "login/beian",
+            type: "post",
+            data: login_data,
+            dataType: 'json',
+            success: function (data) {
+                if (data.returnCode === "0000") {
+                    console.log($(".link-record > a"))
+                    $(".link-record > a").text(data.data.no);
+                    $(".link-record > a").attr("href",data.data.url);
+                } else {
+
+                }
+            },
+            error: function (jqXHR) {
+                loginButton.text('ç»å½å¤±è´¥, è¯·éè¯!').addClass("btn-danger");
+            }
+        });
+    }
+
+    $(document).ready(function() {
+        getBeianInfo()
+        $("#loginAccount").on("blur",getDepts)
+    });
+
+    function deptSelectDataLoad(depts) {
+        var t = $("#deptId");
+        if(depts && depts.length>0){
+            t.find("option").remove();
+            t.append('<option value="">' + (t.data("placeholder") || t.attr("placeholder") || "") + '</option>');
+            $.each(depts, function (key, val) {
+                var i18_CodeDes = val.deptName;
+                t.append('<option value="' +val.deptId+ '">' + i18_CodeDes + '</option>');
+            });
+
+            t.prev(".s-loading").fadeOut(100, function () {
+                t.prev(".s-loading").remove();
+            });
+        }
+    }
+</script>
+</body>
+
+</html>
+2020-09-03 11:03:49,933 INFO [root] [test03_cis_plan_params.py(test01_add_cost:53)] - 添加抄表计划的响应码：200
+2020-09-03 11:04:10,902 INFO [root] [__init__.py(<module>:7)] - Test日志会不会打印！！！
+2020-09-03 11:04:11,840 INFO [root] [test01_cis_login_params.py(test01_login:26)] - 登录的结果为：{'message': '运行正确', 'responseCode': '100000', 'result': {'loginPwdExpireDate': '2020-10-23 13:10:41', 'orgName': '分公司3', 'ownership': '075702', 'loginName': '30000', 'mobile': '17899998876', 'name': '30000', 'userId': '44167', 'partName': 'looper', 'etbcAppId': 'ETBCYEMpCaWr5KrYpGSk'}}
+2020-09-03 11:04:11,887 INFO [root] [test01_cis_login_params.py(test01_login:26)] - 登录的结果为：{'message': '您输入的帐号或者密码不正确，请重新输入。', 'responseCode': '999999'}
+2020-09-03 11:04:12,256 INFO [root] [test01_cis_login_params.py(test01_login:26)] - 登录的结果为：{'message': '您输入的帐号或者密码不正确，请重新输入。', 'responseCode': '999999'}
+2020-09-03 11:04:12,450 INFO [root] [test02_cis_cost_params.py(test01_login_success:40)] - 提取的cookie为：<RequestsCookieJar[<Cookie SESSION=484c8163-edde-4815-a097-419bb52ae884 for .eslink.net.cn/>]>
+2020-09-03 11:04:13,029 INFO [root] [test02_cis_cost_params.py(test02_add_cost:52)] - 添加其他费用的结果为：true
+2020-09-03 11:04:13,578 INFO [root] [test02_cis_cost_params.py(test03_query_cost:62)] - 查询的结果为：{'recordsFiltered': 5, 'data': [{'octId': '20200804101808314906248624', 'costName': '过户费', 'price': 5.0, 'unit': '元', 'costType': '9', 'costItem': '93', 'state': '1', 'createStaffId': '44167', 'createTime': 1596507489000, 'modifyStaffId': '44167', 'modifyTime': 1599034612000, 'corpId': '2357', 'tenantId': 'ITQ8m46H1FpoaC2brNC52vLr06lv24LA', 'orgId': '075702', 'costTypeDes': '其他', 'costItemDes': '过户费', 'stateDes': '有效', 'corpDesc': '分公司3', 'createStaffName': '30000', 'modifyStaffName': '30000', 'woId': None, 'isScope': '0', 'priceScope': None, 'custType': None, 'addrCodeId': None, 'addrCodeDes': None, 'priceDesc': '5.00', 'priceScopeStart': None, 'priceScopeEnd': None, 'custTypeDes': None}, {'octId': '20200826091950911285244392', 'costName': 'IC卡费', 'price': 10.0, 'unit': '元', 'costType': '9', 'costItem': '94', 'state': '1', 'createStaffId': '44167', 'createTime': 1598404792000, 'modifyStaffId': None, 'modifyTime': None, 'corpId': '2357', 'tenantId': 'ITQ8m46H1FpoaC2brNC52vLr06lv24LA', 'orgId': '075702', 'costTypeDes': '其他', 'costItemDes': 'IC卡费', 'stateDes': '有效', 'corpDesc': '分公司3', 'createStaffName': '30000', 'modifyStaffName': None, 'woId': None, 'isScope': '0', 'priceScope': None, 'custType': None, 'addrCodeId': None, 'addrCodeDes': None, 'priceDesc': '10.00', 'priceScopeStart': None, 'priceScopeEnd': None, 'custTypeDes': None}, {'octId': '20200827113255893316319935', 'costName': '安装费', 'price': 5.0, 'unit': '元', 'costType': '9', 'costItem': '95', 'state': '1', 'createStaffId': '44167', 'createTime': 1598499177000, 'modifyStaffId': None, 'modifyTime': None, 'corpId': '2357', 'tenantId': 'ITQ8m46H1FpoaC2brNC52vLr06lv24LA', 'orgId': '075702', 'costTypeDes': '其他', 'costItemDes': '安装费', 'stateDes': '有效', 'corpDesc': '分公司3', 'createStaffName': '30000', 'modifyStaffName': None, 'woId': None, 'isScope': '0', 'priceScope': None, 'custType': None, 'addrCodeId': None, 'addrCodeDes': None, 'priceDesc': '5.00', 'priceScopeStart': None, 'priceScopeEnd': None, 'custTypeDes': None}, {'octId': '20200902152619660811940070', 'costName': '1111', 'price': 1.0, 'unit': '元', 'costType': '9', 'costItem': '91', 'state': '1', 'createStaffId': '44167', 'createTime': 1599031580000, 'modifyStaffId': '44167', 'modifyTime': 1599032410000, 'corpId': '2357', 'tenantId': 'ITQ8m46H1FpoaC2brNC52vLr06lv24LA', 'orgId': '075702', 'costTypeDes': '其他', 'costItemDes': '垃圾费', 'stateDes': '有效', 'corpDesc': '分公司3', 'createStaffName': '30000', 'modifyStaffName': '30000', 'woId': None, 'isScope': '0', 'priceScope': None, 'custType': None, 'addrCodeId': None, 'addrCodeDes': None, 'priceDesc': '1.00', 'priceScopeStart': None, 'priceScopeEnd': None, 'custTypeDes': None}, {'octId': '20200903110356231621689007', 'costName': '8888', 'price': 1.0, 'unit': '元', 'costType': None, 'costItem': '91', 'state': '1', 'createStaffId': '44167', 'createTime': 1599102237000, 'modifyStaffId': None, 'modifyTime': None, 'corpId': '2357', 'tenantId': 'ITQ8m46H1FpoaC2brNC52vLr06lv24LA', 'orgId': '075702', 'costTypeDes': None, 'costItemDes': '垃圾费', 'stateDes': '有效', 'corpDesc': '分公司3', 'createStaffName': '30000', 'modifyStaffName': None, 'woId': None, 'isScope': '0', 'priceScope': None, 'custType': None, 'addrCodeId': None, 'addrCodeDes': None, 'priceDesc': '1.00', 'priceScopeStart': None, 'priceScopeEnd': None, 'custTypeDes': None}], 'draw': 0, 'recordsTotal': 5}
+2020-09-03 11:04:13,578 INFO [root] [test02_cis_cost_params.py(test03_query_cost:66)] - 保存到全局变量其他费用的ID为：20200903110356231621689007
+2020-09-03 11:04:14,100 INFO [root] [test02_cis_cost_params.py(test04_modify_cost:75)] - 修改的结果为：true
+2020-09-03 11:04:14,680 INFO [root] [test02_cis_cost_params.py(test05_del_cost:84)] - 删除的结果为：true
+2020-09-03 11:04:15,218 INFO [root] [test03_cis_plan_params.py(test01_add_cost:52)] - 添加抄表计划的结果为：true
+2020-09-03 11:04:15,218 INFO [root] [test03_cis_plan_params.py(test01_add_cost:53)] - 添加抄表计划的响应码：200
+2020-09-03 11:04:15,752 INFO [root] [test03_cis_plan_params.py(test02_query_cost:65)] - 查询的结果为：{'recordsFiltered': 9, 'data': [{'mrPlanId': '202008041351398470105233130103', 'frequencyUnit': '1', 'mrPlanNo': '0001', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '抄表01', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1596520301000, 'nextExecDate': '2020-08-05', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008041444534800105551928244', 'frequencyUnit': '1', 'mrPlanNo': '0003', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '抄表执行监控', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1596523494000, 'nextExecDate': '2020-08-04', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008241505204900105498892317', 'frequencyUnit': '1', 'mrPlanNo': '0005', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '普表抄表冒烟', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598252721000, 'nextExecDate': '2020-08-25', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008250916105400105650242344', 'frequencyUnit': '2', 'mrPlanNo': '0006', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '3', 'mrPlanTypeDes': '普表', 'mrPlanName': '测试一下', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598318171000, 'nextExecDate': '2020-08-25', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008250941572220105386959586', 'frequencyUnit': '1', 'mrPlanNo': '4678', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '抄表', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598319718000, 'nextExecDate': '2020-08-25', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202008251004392350105399463739', 'frequencyUnit': '1', 'mrPlanNo': '0008', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '抄，，，表', 'stateDes': '执行中', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598321080000, 'nextExecDate': '2020-08-27', 'state': '2', 'staffId': '44210'}, {'mrPlanId': '202008251056235220105727854918', 'frequencyUnit': '1', 'mrPlanNo': '0009', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '2', 'mrPlanTypeDes': '普表', 'mrPlanName': '直接补抄', 'stateDes': '执行中', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1598324184000, 'nextExecDate': '2020-08-27', 'state': '2', 'staffId': '44210'}, {'mrPlanId': '202009031058491700105117685808', 'frequencyUnit': '1', 'mrPlanNo': '11111', 'deptId': '分公司3', 'perforIndex': '', 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '11111', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1599101930000, 'nextExecDate': '2020-09-03', 'state': '1', 'staffId': '44210'}, {'mrPlanId': '202009031103584210105743362513', 'frequencyUnit': '1', 'mrPlanNo': '88888', 'deptId': '分公司3', 'perforIndex': None, 'limitBillingQty': 0.0, 'mrFrequency': '1', 'mrPlanTypeDes': '普表', 'mrPlanName': '接口测试', 'stateDes': '待执行', 'mrPlanType': '11', 'createStaffId': '30000', 'execStaffId': '抄表工', 'createTime': 1599102239000, 'nextExecDate': '2020-09-03', 'state': '1', 'staffId': '44210'}], 'draw': 0, 'recordsTotal': 9}
+2020-09-03 11:04:15,752 INFO [root] [test03_cis_plan_params.py(test02_query_cost:69)] - 保存到全局变量抄表计划的ID为：202009031103584210105743362513
+2020-09-03 11:04:16,381 INFO [root] [test03_cis_plan_params.py(test03_del_cost:78)] - 删除的结果为：true
